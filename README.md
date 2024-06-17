@@ -16,7 +16,7 @@ In this case, I’ve worked with the latter and used these APIs:
 
 * `IsEnclaveTypeSupported` to check you could use this feature or not
 * `OpenProcess` to get handle to current process
-* `CreateEnclave~ to create a zone
+* `CreateEnclave` to create a zone
 * `InitializeEnclave` to init the created zone
 
 To be honest, I did not do any reverse engineering or fuzzing or … to get this crash. MSDN Helped me! 🙂 You may ask How?
